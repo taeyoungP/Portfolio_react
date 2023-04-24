@@ -46,6 +46,7 @@ h3 {
     margin: 10px 0;
     color: var(--dark_blue);
     position: absolute;
+    margin-left: 10px !important;
 }
 
 
@@ -158,7 +159,7 @@ nav:hover .menu {
     margin-left: 230px;
 }
 
-#form_wrap{
+#form_wrap {
     display: flex;
     flex-wrap: wrap;
 }
@@ -251,13 +252,44 @@ nav:hover .menu {
     padding-left: 18px;
     margin: 0 !important;
     font-weight: bold;
-    color: rgb(250, 247, 242);
+    /*color: rgb(250, 247, 242);*/
     /*text-shadow: 0 0 4px var(--dark_blue), 0 0 4px var(--dark_blue), 
     0 0 4px var(--dark_blue), 0 0 4px var(--dark_blue), 0 0 4px var(--dark_blue), 0 0 4px var(--dark_blue), 
     0 0 4px var(--dark_blue), 0 0 4px var(--dark_blue), 0 0 4px var(--dark_blue), 0 0 4px var(--dark_blue), 
     0 0 4px var(--dark_blue), 0 0 4px var(--dark_blue), 0 0 4px var(--dark_blue), 0 0 4px var(--dark_blue), 
     0 0 4px var(--dark_blue), 0 0 4px var(--dark_blue), 0 0 4px var(--dark_blue), 0 0 4px var(--dark_blue);*/
 }
+
+#name {
+
+    --bg-size: 400%;
+    --color-one: hsl(15 90% 55%);
+    --color-two: hsl(40 95% 55%);
+    --color-three: hsl(182, 95%, 55%);
+    --color-four: hsl(187, 95%, 55%);
+    --color-five: hsl(234, 95%, 55%);
+    background: linear-gradient(90deg,
+            var(--color-one),
+            var(--color-two),
+            var(--color-three),
+            var(--color-four),
+            var(--color-five),
+            var(--color-one)) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+    /*https://web.dev/speedy-css-tip-animated-gradient-text/*/
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    #name {
+      animation: move-bg 8s linear infinite;
+    }
+    @keyframes move-bg {
+      to {
+        background-position: var(--bg-size) 0;
+      }
+    }
+  }
 
 #name:hover {
     color: var(--dark_blue);
@@ -323,10 +355,10 @@ nav:hover .menu {
     box-shadow:
         0 0 6px 3px var(--light_blue),
         /* inner light blue */
-        0 0 10px 6px rgb(179, 255, 251),
+        0 0 10px 6px #6e97be,
         /* middle lighter blue */
-        0 0 14px 10px rgb(71, 85, 163);
-    /* outer light yellow */
+        0 0 14px 10px rgb(228, 236, 191)
+        /* outer light yellow */
 }
 
 /*.work:hover span {
@@ -465,6 +497,10 @@ footer {
     color: var(--dark_blue);
 }
 
+#wholeNav {
+    background: var(--light_blue);
+}
+
 /*When screen width reaches 768px, page will rearrange direction and styling of the page so the user can read the content easier on smaller screen*/
 @media screen and (max-width: 768px) {
     header {
@@ -473,6 +509,7 @@ footer {
 
     h2 {
         font-size: 140%;
+        background: var(--light_blue);
     }
 
     h3 {
@@ -483,7 +520,7 @@ footer {
     #name {
         position: relative;
         text-align: center !important;
-        background: var(--light_blue);
+        
     }
 
     .wrap {

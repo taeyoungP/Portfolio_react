@@ -2,7 +2,7 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div>
+    <div id="wholeNav">
       <h2 id="name"><i className="bi bi-star"></i> Taeyoung Park <i className="bi bi-star"></i></h2>
       <ul className="nav nav-tabs">
         <li className="nav-item">

@@ -104,13 +104,13 @@ export default function Contact() {
                             Submit
                         </button>
                     </div>
-                </form>
+                </form>               
+                </div>
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                </div>
             </div>
         </div>
     );
