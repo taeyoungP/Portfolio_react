@@ -67,6 +67,7 @@ export default function Contact() {
         <div>
             <h3 id="Contact">Contact Me</h3>
             <div className="wrap">
+                <div id="form_wrap">
                 <form className="form">
                     <input
                         className="form-control"
@@ -109,6 +110,7 @@ export default function Contact() {
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
+                </div>
             </div>
         </div>
     );
