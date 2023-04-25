@@ -2,9 +2,9 @@
 
 ## Task and Description
 
-This is portfoilo that is modified from https://taeyoungp.github.io/Module2_Challenge/ and built using REACT.js.
+This is portfoilo that is modified from https://taeyoungp.github.io/Module2_Challenge/ and is built using REACT.js.
 
-The purpose of this portfolio is not only for applying jobs but also to share works with other developers and collaborate on projects.
+(The purpose of this portfolio is to apply jobs and to share works with other developers and collaborate on projects.)
 
 ## User Story
 
@@ -23,6 +23,9 @@ SO THAT I can assess whether they're a good candidate for an open position
 * To see the works on the portfolio page, click part inside of red line for deployed application & GitHub icon for respective Github repository. 
     ![Portfolio Works](./src/assets/project.png)
 
+## Future Development
+* Implement back-end side for working 'contact form'. (currently not implemented).
+* Polish the design of the website
 
 ## Credits
 * React.js
@@ -30,4 +33,3 @@ SO THAT I can assess whether they're a good candidate for an open position
 * Color palette used for this portfolio: https://coolors.co/0a1e2d-1c3955-205384-5e87ae-b5c4da
 
 - - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
