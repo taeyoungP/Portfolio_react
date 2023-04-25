@@ -9,7 +9,7 @@ export default function Portfolio() {
                 <div className="wrap">
                     <div className="work_content">
                         <Works workNum={1} workTitle="Tech_Blog" workLink="https://guarded-waters-21251.herokuapp.com/" gitHubLink='https://github.com/taeyoungP/Tech_Blog' />
-                        <Works workNum={2} workTitle="Weather_Dashboard" workLink="https://taeyoungp.github.io/Weather_Dashboard/" gitHubLink='https://taeyoungp.github.io/Weather_Dashboard/' />
+                        <Works workNum={2} workTitle="Weather_Dashboard" workLink="https://taeyoungp.github.io/Weather_Dashboard/" gitHubLink='https://github.com/taeyoungP/Weather_Dashboard' />
                         <Works workNum={3} workTitle="CinEvents" workLink="https://jjsmith32199.github.io/UntitledGooseProject/" gitHubLink='https://github.com/jjsmith32199/UntitledGooseProject' />
                         <Works workNum={4} workTitle="TotoroBank" workLink="https://murmuring-escarpment-43025.herokuapp.com/" gitHubLink='https://github.com/taeyoungP/TotoroBank' />
                         <Works workNum={5} workTitle="Note_Taker" workLink="https://frozen-badlands-02331.herokuapp.com/" gitHubLink='https://github.com/taeyoungP/Note_Taker' />
