@@ -42,6 +42,9 @@ export default function Contact() {
             return;
         }
 
+        /* If everything state for form is filled out
+        execute function to hanndle the data */
+
         setName('');
         setEmail('');
         setMessage('');
@@ -66,7 +69,7 @@ export default function Contact() {
     return (
         <div>
             <h3 id="Contact">Contact Me</h3>
-            <div className="wrap">
+            <div className="wrap renderpage">
                 <div id="form_wrap">
                 <form className="form">
                     <input
@@ -115,13 +118,3 @@ export default function Contact() {
         </div>
     );
 }
-
-/*                    <input
-                        className="form-control"
-                        id="messageInput"
-                        value={message}
-                        name="message"
-                        onChange={handleInputChange}
-                        type="text"
-                        placeholder="message"
-                    />*/

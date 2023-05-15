@@ -3,10 +3,12 @@ import resume from '../../assets/Resume_Taeyoung_Park.docx';
 
 export default function Resume() {
   return (
-    <div>
+    <div className='renderpage'>
       <h3 id="Resume">Resume</h3>
       <div className='wrap'>
-        <a href={resume} id="resumeLink" download>Download My Resume</a>
+        <div className='resumeLink'>
+          <a href={resume} id="resumeLink" download>Download My Resume</a>
+        </div>
       </div>
       <br />
       <h3 id="front-end">Frond-end<br /> Proficiencies</h3>
@@ -29,6 +31,7 @@ export default function Resume() {
           <li>MySQL</li>
           <li>Express.js</li>
           <li>NoSQL</li>
+          <li>MongoDB</li>
         </ul>
       </div>
     </div>

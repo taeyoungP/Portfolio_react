@@ -6,34 +6,48 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import '../styles/reset.css';
+import '../styles/background.css';
 import '../styles/style.css';
 
+
 export default function PortfolioContainer() {
-    const [currentPage, setCurrentPage] = useState('About');
-    // Default page is 'About Me' page
-    const renderPage = () => {
-      if (currentPage === 'About') {
-        return <About />;
-      }
-      if (currentPage === 'Portfolio') {
-        return <Portfolio />;
-      }
-      if (currentPage === 'Contact') {
-        return <Contact />;
-      }
-      return <Resume />;
-    };
-  
-    const handlePageChange = (page) => setCurrentPage(page);
-  
-    return (
-      <div>
-        <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-        <figure className="background_image" alt="background_image"></figure>
-        {renderPage()}
-        <br/><br/>
-        <Footer id='footer'/>
+  const [currentPage, setCurrentPage] = useState('About');
+  // Default page is 'About Me' page
+  const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    return <Resume />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
+  return (
+    <div>
+      <link href='https://fonts.googleapis.com/css?family=Lato|Roboto:400,900' rel='stylesheet' type='text/css'></link>
+      <div className="background">
+
+        <div className='stars'></div>
+        <div className='twinkling'></div>
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt="moon" />
+        <div className='clouds'></div>
+
       </div>
-    );
-  }
-  
+      <div className='container'>
+        <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+        <div>
+          {renderPage()}
+        </div>
+        <br /><br />
+        <Footer id='footer' />
+      </div>
+    </div>
+
+  );
+}

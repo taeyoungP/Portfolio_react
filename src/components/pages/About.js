@@ -6,7 +6,7 @@ export default function About() {
     return (
         <div>
             <h3 id="About-Me">About Me</h3>
-            <div className="wrap">
+            <div className="wrap renderpage">
                 <div id="wrap_profile">
                     <img id="profile" src={profileImage} alt="profile.jpg"/>
                     <p>

@@ -30,6 +30,9 @@ SO THAT I can assess whether they're a good candidate for an open position
 ## Credits
 * React.js
 * For creating animated radient text: https://web.dev/speedy-css-tip-animated-gradient-text/
+* Background used for the page: https://codepen.io/agoodwin/pen/NMJoER
 * Color palette used for this portfolio: https://coolors.co/0a1e2d-1c3955-205384-5e87ae-b5c4da
+* Sparkly cursor effect: http://www.mf2fm.com/rv
+* Button animation effect: https://codepen.io/mars2601/pen/MKVNMX
 
 - - -
