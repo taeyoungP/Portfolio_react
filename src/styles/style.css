@@ -192,6 +192,14 @@ nav:hover .menu {
     background-position: top;
 }
 
+#work0 .projectLink {
+    background-image: url("../images/work0.PNG");
+    display: block;
+    height: 300px;
+    width: 500px;
+    position: relative;
+}
+
 #work1 .projectLink {
     background-image: url("../images/work1.PNG");
     display: block;
@@ -432,11 +440,25 @@ footer {
 
 #submitForm {
     --bs-btn-color: var(--dark_blue);
-    --bs-btn-bg: var(--light_blue);
+    --bs-btn-bg: #fff567;
     --bs-btn-border-color: var(--light_blue);
-    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-color: #ffffff;
     --bs-btn-hover-bg: var(--dark_blue);
     --bs-btn-hover-border-color: var(--dark_blue);
+    background: linear-gradient(
+        150deg,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 154, 0, 1) 10%,
+        rgba(208, 222, 33, 1) 20%,
+        rgba(79, 220, 74, 1) 30%,
+        rgba(63, 218, 216, 1) 40%,
+        rgba(47, 201, 226, 1) 50%,
+        rgba(28, 127, 238, 1) 60%,
+        rgba(95, 21, 242, 1) 70%,
+        rgba(186, 12, 248, 1) 80%,
+        rgba(251, 7, 217, 1) 90%,
+        rgba(255, 0, 0, 1) 100%
+    ) !important;
     font-weight: bold;
     width: 100px;
 }
@@ -639,6 +661,17 @@ footer {
 
     .nav-item a {
         font-size: 1rem;
+    }
+
+    #submit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #form_wrap{
+        align-items: center;
+        flex-direction: column;
     }
 
 }

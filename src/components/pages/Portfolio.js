@@ -8,6 +8,7 @@ export default function Portfolio() {
                 <h3 id="Work">Work</h3>
                 <div className="wrap renderpage">
                     <div className="work_content">
+                        <Works workNum={0} workTitle="U-Fit" workLink="https://pure-savannah-65137.herokuapp.com" gitHubLink='https://github.com/sampaul10/Fitness-Tracker' />
                         <Works workNum={1} workTitle="Tech_Blog" workLink="https://guarded-waters-21251.herokuapp.com/" gitHubLink='https://github.com/taeyoungP/Tech_Blog' />
                         <Works workNum={2} workTitle="Weather_Dashboard" workLink="https://taeyoungp.github.io/Weather_Dashboard/" gitHubLink='https://github.com/taeyoungP/Weather_Dashboard' />
                         <Works workNum={3} workTitle="CinEvents" workLink="https://jjsmith32199.github.io/UntitledGooseProject/" gitHubLink='https://github.com/jjsmith32199/UntitledGooseProject' />
