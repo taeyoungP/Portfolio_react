@@ -71,6 +71,7 @@ export default function Contact() {
             <h3 id="Contact">Contact Me</h3>
             <div className="wrap renderpage">
                 <div id="form_wrap">
+            {/*
                 <form className="form">
                     <input
                         className="form-control"
@@ -114,6 +115,12 @@ export default function Contact() {
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
+                */}
+                <ul className='contact-info'>
+                    <li>taeyoung.park9653@gmail.com</li>
+                </ul>
+                </div>
+
             </div>
         </div>
     );

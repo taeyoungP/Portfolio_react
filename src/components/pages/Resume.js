@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../assets/Resume_Taeyoung_Park.docx';
+import resume from '../../assets/Taeyoung_Park_Resume.docx';
 
 export default function Resume() {
   return (

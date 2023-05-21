@@ -541,6 +541,14 @@ footer {
     padding-left: 2%;
 }
 
+
+.contact-info li {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
 /**/
 .btn {
     position: relative;
@@ -674,6 +682,10 @@ footer {
         flex-direction: column;
     }
 
+    .contact-info li {
+        font-size: 1.5rem;
+    }
+
 }
 
 /*When screen width reaches 980px, contact me list and profile will listed in vertical(column) direction*/
@@ -683,6 +695,10 @@ footer {
     #wrap_profile {
         flex-direction: column;
         align-items: center;
+    }
+
+    .wrap ul {
+        justify-content: center;
     }
 
     .resumeLink {
