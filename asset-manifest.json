@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio_react/static/css/main.a9badf33.css",
-    "main.js": "/Portfolio_react/static/js/main.899b3c6f.js",
+    "main.js": "/Portfolio_react/static/js/main.d8745345.js",
     "static/media/background_image.png": "/Portfolio_react/static/media/background_image.9421896286251d107ee1.png",
     "static/media/work4.PNG": "/Portfolio_react/static/media/work4.843a29ccbe880a791442.PNG",
     "static/media/work0.PNG": "/Portfolio_react/static/media/work0.bb80d9c27634c43d4888.PNG",
@@ -12,17 +12,17 @@
     "static/media/work3.PNG": "/Portfolio_react/static/media/work3.a18956f9d74282752eb3.PNG",
     "static/media/coming_soon.jpg": "/Portfolio_react/static/media/coming_soon.e7936d840a7cb542bc09.jpg",
     "static/media/work1.PNG": "/Portfolio_react/static/media/work1.81dd2b6e41ac291f88ea.PNG",
-    "static/media/Taeyoung_Park_Resume.docx": "/Portfolio_react/static/media/Taeyoung_Park_Resume.c55d84a9f5bfae588405.docx",
+    "static/media/Taeyoung_Park_Resume.docx": "/Portfolio_react/static/media/Taeyoung_Park_Resume.cf889ae8e082d79d2645.docx",
     "static/media/linkedin_icon.png": "/Portfolio_react/static/media/linkedin_icon.131b233a651212306d06.png",
     "static/media/github_icon.png": "/Portfolio_react/static/media/github_icon.db032c97d1a71b9d1437.png",
     "static/media/work6.PNG": "/Portfolio_react/static/media/work6.0ef230a9223890188877.PNG",
     "static/media/work5.PNG": "/Portfolio_react/static/media/work5.e0db7c414a177b156c74.PNG",
     "index.html": "/Portfolio_react/index.html",
     "main.a9badf33.css.map": "/Portfolio_react/static/css/main.a9badf33.css.map",
-    "main.899b3c6f.js.map": "/Portfolio_react/static/js/main.899b3c6f.js.map"
+    "main.d8745345.js.map": "/Portfolio_react/static/js/main.d8745345.js.map"
   },
   "entrypoints": [
     "static/css/main.a9badf33.css",
-    "static/js/main.899b3c6f.js"
+    "static/js/main.d8745345.js"
   ]
 }
