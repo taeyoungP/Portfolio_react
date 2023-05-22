@@ -11,7 +11,7 @@ export default function About() {
                     <img id="profile" src={profileImage} alt="profile.jpg"/>
                     <p>
                         <span id="hello">Hello! My name is Taeyoung Park.</span><br/>
-                        &emsp;I graduated from Uconn in 2020 with a degree in Compouter Science. I have coding expereince 
+                        &emsp;I graduated from Uconn in 2020 with a degree in Computer Science. I have coding experience 
                         in various programming languages, including Python, Java, C++, C, and others. <br/><br/>
                         &emsp;I transitioned from a role as a technology analyst to 
                         pursue a more creative career path, where I discovered my passion for web development. 
