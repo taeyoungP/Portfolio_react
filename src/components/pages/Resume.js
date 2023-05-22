@@ -20,6 +20,7 @@ export default function Resume() {
           <li>JQuery</li>
           <li>React</li>
           <li>Boostrap</li>
+          <li>Handlebars.js</li>
         </ul>
       </div>
       <br />
@@ -32,6 +33,7 @@ export default function Resume() {
           <li>Express.js</li>
           <li>NoSQL</li>
           <li>MongoDB</li>
+          <li>GraphQL</li>
         </ul>
       </div>
     </div>
