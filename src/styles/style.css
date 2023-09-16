@@ -1,8 +1,8 @@
 :root {
-    --dark_blue: #0A1E2D;
+    --dark_blue: #2c802e;
     --dark_blue_transparent: rgb(26, 47, 87, 0.5);
-    --light_blue: #8c95ad00;
-    --white: #fff;
+    --light_blue: #219c7300;
+    --white: #272727;
 }
 
 body {
@@ -106,12 +106,13 @@ p {
 .nav {
     --bs-nav-link-color: var(--dark_blue) !important;
     --bs-nav-link-hover-color: var(--dark_blue) !important;
+    justify-content: flex-end !important;
 }
 
 .nav-item a {
-    color: rgb(255, 242, 120);
+    color: rgb(35, 94, 61);
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 .nav-tabs {
@@ -532,6 +533,10 @@ footer {
 
 #wholeNav {
     background: var(--light_blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 #name {
@@ -576,8 +581,8 @@ footer {
 }
 
 .btn svg rect {
-    stroke: rgb(253, 255, 116);
-    stroke-width: 4;
+    stroke: #2c802e;
+    stroke-width: 3;
     stroke-dasharray: 353, 0;
     stroke-dashoffset: 0;
     -webkit-transition: all 600ms ease;
@@ -586,9 +591,9 @@ footer {
 
 .btn span {
     background: rgb(130, 209, 255);
-    background: -moz-linear-gradient(left, rgb(253, 255, 116) 0%, rgb(117, 210, 238) 100%);
-    background: -webkit-linear-gradient(left, rgb(253, 255, 116) 0%, rgb(117, 210, 238) 100%);
-    background: linear-gradient(to right, rgb(253, 255, 116) 0%, rgb(117, 210, 238) 100%);
+    background: -moz-linear-gradient(left, rgb(17, 94, 196) 0%, rgb(43, 179, 38) 100%);
+    background: -webkit-linear-gradient(left, rgb(17, 94, 196) 0%, rgb(43, 179, 38) 100%);
+    background: linear-gradient(to right, rgb(17, 94, 196) 0%, rgb(43, 179, 38) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8282', endColorstr='#e178ed', GradientType=1);
 
     -webkit-background-clip: text;
@@ -596,8 +601,8 @@ footer {
 }
 
 .active svg rect {
-    stroke: rgb(255, 148, 116);
-    stroke-width: 4;
+    stroke: rgb(216, 123, 95);
+    stroke-width: 3;
     stroke-dasharray: 353, 0;
     stroke-dashoffset: 0;
     -webkit-transition: all 600ms ease;
@@ -605,8 +610,8 @@ footer {
 }
 
 .active span {
-    background: rgb(130, 209, 255);
-    background: -moz-linear-gradient(left, rgb(135, 92, 252) 0%, rgb(238, 117, 117) 100%);
+    background: rgb(41, 145, 28);
+    background: -moz-linear-gradient(left, rgb(135, 92, 252) 0%, rgb(197, 140, 18) 100%);
     background: -webkit-linear-gradient(left, rgb(135, 92, 252) 0%, rgb(238, 117, 117) 100%);
     background: linear-gradient(to right, rgb(135, 92, 252) 0%, rgb(238, 117, 117) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8282', endColorstr='#e178ed', GradientType=1);
@@ -619,8 +624,10 @@ footer {
 
 .btn:hover svg rect {
     stroke-width: 4;
-    stroke-dasharray: 196, 543;
-    stroke-dashoffset: 437;
+    /*stroke-dasharray: 196, 543;*/
+    stroke-dasharray: 89, 580;
+    stroke-dashoffset: 423;
+    stroke: rgb(88, 112, 248);
 }
 
 /*When screen width reaches 768px, page will rearrange direction and styling of the page so the user can read the content easier on smaller screen*/
@@ -645,9 +652,9 @@ footer {
         padding: 2% 0;
     }
 
-    .name-background {
+    /*.name-background {
         background: #8c95ad00;
-    }
+    }*/
 
     .wrap {
         margin-left: 1%;
@@ -656,7 +663,8 @@ footer {
     }
 
     .nav-tabs {
-        justify-content: center;
+        justify-content: flex-end;
+
     }
 
     h3::after {

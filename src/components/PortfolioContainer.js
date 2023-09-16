@@ -6,8 +6,10 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import '../styles/reset.css';
-import '../styles/background.css';
+//import '../styles/background.css';
 import '../styles/style.css';
+import '../styles/background_v_2.css';
+
 
 
 export default function PortfolioContainer() {
@@ -35,15 +37,16 @@ export default function PortfolioContainer() {
 
         <div className='stars'></div>
         <div className='twinkling'></div>
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt="moon" />
+        {/*<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt="moon" />*/}
         <div className='clouds'></div>
 
       </div>
-      <div className='container'>
+      <div>
         <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-        <div>
+        <div className='container'>
           {renderPage()}
         </div>
+
         <br /><br />
         <Footer id='footer' />
       </div>
