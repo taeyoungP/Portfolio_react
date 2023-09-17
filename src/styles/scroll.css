@@ -1,0 +1,28 @@
+
+
+.section {
+    height: 38rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.div {
+    width: 30vh;
+    height: 30vh;
+    background: transparent;
+    border: 5vh solid var(--c);
+}
+
+.reveal.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.reveal {
+    position: relative;
+    transform: translateX(-150px);
+    opacity: 0;
+    transition: 0.8s all ease;
+}

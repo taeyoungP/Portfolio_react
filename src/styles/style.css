@@ -44,16 +44,15 @@ h2 {
 h3 {
     font-size: 200%;
     margin: 10px 0;
+    padding: 1% 0;
     color: var(--white);
     position: absolute;
-    margin-left: 10px !important;
 }
 
 
 h3::before {
     content: "⭐";
 }
-
 
 .background_image {
     height: 500px;
@@ -66,7 +65,7 @@ h3::before {
 
 #wrap_profile {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
 
 #profile {
@@ -160,10 +159,25 @@ nav:hover .menu {
 }
 
 .wrap {
-    border-left: 5px solid var(--dark_blue);
+    /*border-left: 8px solid var(--dark_blue);*/
+    border-left: 1rem ridge rgba(50, 121, 41, 0.8);
     padding: 2%;
     margin-left: 230px;
+    /*background-color: rgba(230, 220, 188, 0.5);*/
+    background: linear-gradient(to bottom right, rgba(230, 220, 188, 0.5), rgb(255, 255, 255, 0.8));
+    animation: fadein 2.5s;
 }
+
+@keyframes fadein {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+            transform: none;
+            transition-duration: 2.5s, 0.8s;
+        }
+    }
 
 #form_wrap {
     display: flex;
@@ -175,87 +189,51 @@ nav:hover .menu {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-left: -300px;
 }
 
 .work {
     border: 5px solid var(--dark_blue);
-    margin: 1%;
     display: flex;
-}
-
-/*Image for 1st Work fo the page*/
-#first_work .projectLink {
-    background-image: url("../images/work1.PNG");
-    display: block;
-    height: 500px;
-    width: 100%;
-    position: relative;
-    background-position: top;
+    height: fit-content;
+    width: fit-content;
 }
 
 #work0 .projectLink {
     background-image: url("../images/work0.PNG");
-    display: block;
-    height: 300px;
-    width: 500px;
-    position: relative;
 }
 
 #work1 .projectLink {
     background-image: url("../images/work1.PNG");
-    display: block;
-    height: 300px;
-    width: 500px;
-    position: relative;
 }
 
 /*Image for 2nd work*/
 #work2 .projectLink {
     background-image: url("../images/work2.PNG");
-    display: block;
-    height: 300px;
-    width: 500px;
-    position: relative;
 }
 
 #work3 .projectLink {
     background-image: url("../images/work3.PNG");
-    display: block;
-    height: 300px;
-    width: 500px;
-    position: relative;
 }
 
 #work4 .projectLink {
     background-image: url("../images/work4.PNG");
-    display: block;
-    height: 300px;
-    width: 500px;
-    position: relative;
 }
 
 #work5 .projectLink {
     background-image: url("../images/work5.PNG");
-    display: block;
-    height: 300px;
-    width: 500px;
-    position: relative;
 }
 
 #work6 .projectLink {
     background-image: url("../images/work6.PNG");
-    display: block;
-    height: 300px;
-    width: 500px;
-    position: relative;
 }
 
 /*Rest of incomplete(coming soon) works*/
 .work .projectLink {
     background-image: url("../images/coming_soon.jpg");
     display: block;
-    height: 300px;
-    width: 500px;
+    height: 400px;
+    width: 600px;
     position: relative;
 }
 
@@ -446,20 +424,18 @@ footer {
     --bs-btn-hover-color: #ffffff;
     --bs-btn-hover-bg: var(--dark_blue);
     --bs-btn-hover-border-color: var(--dark_blue);
-    background: linear-gradient(
-        150deg,
-        rgba(255, 0, 0, 1) 0%,
-        rgba(255, 154, 0, 1) 10%,
-        rgba(208, 222, 33, 1) 20%,
-        rgba(79, 220, 74, 1) 30%,
-        rgba(63, 218, 216, 1) 40%,
-        rgba(47, 201, 226, 1) 50%,
-        rgba(28, 127, 238, 1) 60%,
-        rgba(95, 21, 242, 1) 70%,
-        rgba(186, 12, 248, 1) 80%,
-        rgba(251, 7, 217, 1) 90%,
-        rgba(255, 0, 0, 1) 100%
-    ) !important;
+    background: linear-gradient(150deg,
+            rgba(255, 0, 0, 1) 0%,
+            rgba(255, 154, 0, 1) 10%,
+            rgba(208, 222, 33, 1) 20%,
+            rgba(79, 220, 74, 1) 30%,
+            rgba(63, 218, 216, 1) 40%,
+            rgba(47, 201, 226, 1) 50%,
+            rgba(28, 127, 238, 1) 60%,
+            rgba(95, 21, 242, 1) 70%,
+            rgba(186, 12, 248, 1) 80%,
+            rgba(251, 7, 217, 1) 90%,
+            rgba(255, 0, 0, 1) 100%) !important;
     font-weight: bold;
     width: 100px;
 }
@@ -548,7 +524,7 @@ footer {
 
 
 .contact-info li {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     font-weight: bold;
     font-size: 2rem;
@@ -601,17 +577,22 @@ footer {
 }
 
 .active svg rect {
-    stroke: rgb(216, 123, 95);
+    /*stroke: rgb(216, 123, 95);
     stroke-width: 3;
     stroke-dasharray: 353, 0;
     stroke-dashoffset: 0;
     -webkit-transition: all 600ms ease;
-    transition: all 600ms ease;
+    transition: all 600ms ease;*/
+    stroke-width: 4;
+    /*stroke-dasharray: 196, 543;*/
+    stroke-dasharray: 89, 580;
+    stroke-dashoffset: 423;
+    stroke: rgb(238, 117, 117);
 }
 
 .active span {
     background: rgb(41, 145, 28);
-    background: -moz-linear-gradient(left, rgb(135, 92, 252) 0%, rgb(197, 140, 18) 100%);
+    background: -moz-linear-gradient(left, rgb(135, 92, 252) 0%, rgb(238, 117, 117) 100%);
     background: -webkit-linear-gradient(left, rgb(135, 92, 252) 0%, rgb(238, 117, 117) 100%);
     background: linear-gradient(to right, rgb(135, 92, 252) 0%, rgb(238, 117, 117) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8282', endColorstr='#e178ed', GradientType=1);
@@ -679,13 +660,13 @@ footer {
         font-size: 1rem;
     }
 
-    #submit{
+    #submit {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    #form_wrap{
+    #form_wrap {
         align-items: center;
         flex-direction: column;
     }
