@@ -95,7 +95,7 @@ img {
 }
 
 figure.snip1193:hover .desc {
-  transform: translateY(139.2%);
+  transform: translateY(50%);
   opacity: 1;
   transition: 1s ease;
 }

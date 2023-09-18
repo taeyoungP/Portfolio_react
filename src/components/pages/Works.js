@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import '../../styles/work.css';
 import hover from '../../js/work.js';
 
-function Works({ workNum, workTitle, workLink, gitHubLink, img }) {
+function Works({ workNum, workTitle, workLink, gitHubLink, img, workDesc }) {
     useEffect(() => {
         // Call the addHoverListener function when the component mounts
         hover();
@@ -26,7 +26,7 @@ function Works({ workNum, workTitle, workLink, gitHubLink, img }) {
                 <figcaption>
                     <h4 className="workTitle">{workTitle}</h4>
                     <a href={workLink} class="bottom-left"><i class="ion-ios-browsers"></i></a><a href={gitHubLink} class="bottom-right"><i class="ion-social-github"></i></a>
-                    <div className="desc">description</div>
+                    <div className="desc">{workDesc}</div>
                 </figcaption>
             </figure>
         </div>
