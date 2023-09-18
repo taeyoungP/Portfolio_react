@@ -50,9 +50,9 @@ h3 {
 }
 
 
-h3::before {
+/*h3::before {
     content: "⭐";
-}
+}*/
 
 .background_image {
     height: 500px;
@@ -235,6 +235,10 @@ nav:hover .menu {
     height: 400px;
     width: 600px;
     position: relative;
+}
+
+.workTitle {
+    -webkit-text-stroke: 3px rgba(230, 220, 188, 0.5);
 }
 
 #name {

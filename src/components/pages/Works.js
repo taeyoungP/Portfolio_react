@@ -6,8 +6,7 @@ function Works({ workNum, workTitle, workLink, gitHubLink, img }) {
     useEffect(() => {
         // Call the addHoverListener function when the component mounts
         hover();
-    
-        // Optionally, return a cleanup function if needed
+
         return () => {
           // Cleanup code (if necessary)
         };
@@ -22,11 +21,12 @@ function Works({ workNum, workTitle, workLink, gitHubLink, img }) {
             
         </div>*/
         <div>
-            <figure className="snip1193" id={workNum}>
-                <img src={img} alt="sample69" />
+            <figure className="snip1193 hover" id={workNum}>
+                <img src={img} alt="project_image" />
                 <figcaption>
-                    <h4>{workTitle}</h4>
-                    <a href={workLink} class="bottom-left"><i class="ion-ios-chatboxes-outline"></i></a><a href={gitHubLink} class="bottom-right"><i class="ion-ios-telephone-outline"></i></a>
+                    <h4 className="workTitle">{workTitle}</h4>
+                    <a href={workLink} class="bottom-left"><i class="ion-ios-browsers"></i></a><a href={gitHubLink} class="bottom-right"><i class="ion-social-github"></i></a>
+                    <div className="desc">description</div>
                 </figcaption>
             </figure>
         </div>

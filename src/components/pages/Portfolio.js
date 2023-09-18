@@ -31,7 +31,7 @@ export default function Portfolio() {
         <div >
             <div>
                 <div>
-                    <h3 id="Work">Work</h3>
+                    <h3 id="Work"><span class="material-symbols-outlined">psychiatry</span>Work</h3>
                     <div className="wrap renderpage">
                         <div className="work_content">
 

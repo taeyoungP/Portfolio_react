@@ -68,7 +68,7 @@ export default function Contact() {
 
     return (
         <div>
-            <h3 id="Contact">Contact Me</h3>
+            <h3 id="Contact"><span class="material-symbols-outlined">psychiatry</span>Contact Me</h3>
             <div className="wrap renderpage">
                 <div id="form_wrap">
             {/*

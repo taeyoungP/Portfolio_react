@@ -5,7 +5,9 @@ import profileImage from '../../images/profile.jpg';
 export default function About() {
     return (
         <div>
-            <h3 id="About-Me">About Me</h3>
+            <h3 id="About-Me">
+            <span class="material-symbols-outlined">psychiatry</span>
+                About Me</h3>
             <div className="wrap renderpage">
                 <div id="wrap_profile">
                     <img id="profile" src={profileImage} alt="profile.jpg"/>
