@@ -68,7 +68,7 @@ export default function Contact() {
 
     return (
         <div>
-            <h3 id="Contact"><span class="material-symbols-outlined">psychiatry</span>Contact Me</h3>
+            <h3 id="Contact"><span className="material-symbols-outlined">psychiatry</span>Contact Me</h3>
             <div className="wrap renderpage">
                 <div id="form_wrap">
             {/*
@@ -117,7 +117,7 @@ export default function Contact() {
                 )}
                 */}
                 <ul className='contact-info'>
-                    <li>taeyoung.park9653@gmail.com</li>
+                    <li><a href="mailto:taeyoung.park9653@gmail.com">taeyoung.park9653@gmail.com <i className="ion-ios-email-outline"></i></a></li>
                 </ul>
                 </div>
 

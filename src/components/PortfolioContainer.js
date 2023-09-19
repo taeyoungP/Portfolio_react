@@ -41,7 +41,7 @@ export default function PortfolioContainer() {
         <div className='clouds'></div>
 
       </div>
-      <div>
+      <div id="wholepage">
         <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
         <div className='container'>
           {renderPage()}

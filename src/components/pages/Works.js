@@ -21,11 +21,11 @@ function Works({ workNum, workTitle, workLink, gitHubLink, img, workDesc }) {
             
         </div>*/
         <div>
-            <figure className="snip1193 hover" id={workNum}>
+            <figure className="snip1193" id={workNum}>
                 <img src={img} alt="project_image" />
                 <figcaption>
                     <h4 className="workTitle">{workTitle}</h4>
-                    <a href={workLink} class="bottom-left"><i class="ion-ios-browsers"></i></a><a href={gitHubLink} class="bottom-right"><i class="ion-social-github"></i></a>
+                    <a href={workLink} className="bottom-left"><i className="ion-ios-browsers"></i></a><a href={gitHubLink} className="bottom-right"><i className="ion-social-github"></i></a>
                     <div className="desc">{workDesc}</div>
                 </figcaption>
             </figure>

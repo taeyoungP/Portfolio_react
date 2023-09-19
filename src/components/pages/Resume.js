@@ -4,10 +4,10 @@ import resume from '../../assets/Taeyoung_Park_Resume.docx';
 export default function Resume() {
   return (
     <div className='renderpage'>
-      <h3 id="Resume"><span class="material-symbols-outlined">psychiatry</span>Resume</h3>
+      <h3 id="Resume"><span className="material-symbols-outlined">psychiatry</span>Resume</h3>
       <div className='wrap'>
         <div className='resumeLink'>
-          <a href={resume} id="resumeLink" download>Download My Resume</a>
+          <a href={resume} id="resumeLink" download>Download My Resume <i className='ion-ios-download-outline'></i></a>
         </div>
       </div>
       <br />
@@ -27,7 +27,7 @@ export default function Resume() {
       <h3 id="back-end"><span class="material-symbols-outlined">psychiatry</span>Back-end<br /> Proficiencies</h3>
       <div className='wrap'>
         <ul className='skills'>
-          <li>APIs</li>
+          <li>Third-Party APIs / RESTful API</li>
           <li>Node.js</li>
           <li>MySQL</li>
           <li>Express.js</li>
