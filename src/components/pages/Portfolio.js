@@ -22,7 +22,7 @@ var work06DESC = "J.A.T.E Text Editor is an application where user can create no
 export default function Portfolio() {
     useEffect(() => {
         // Call the show() function from show.js
-        console.log('useEffect is called');
+        //console.log('useEffect is called');
         show();
 
         // Add an event listener for scroll

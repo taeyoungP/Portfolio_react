@@ -11,7 +11,7 @@ export default function About() {
             <div className="wrap renderpage">
                 <div id="wrap_profile">
                     <img id="profile" src={profileImage} alt="profile.jpg" />
-                    <p>
+                    <div id="p">
                         <span id="hello">Hello! My name is Taeyoung Park.</span><br />
                         <div id="intro">
                             &emsp;I graduated from Uconn in 2020 with a degree in Computer Science. I have coding experience
@@ -25,7 +25,7 @@ export default function About() {
                             &emsp;During my free time, I enjoy drawing, cooking, gaming, and building or fixing things.
                         </div>
                         <br /><br />
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>

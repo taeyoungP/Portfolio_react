@@ -11,7 +11,7 @@ export default function Resume() {
         </div>
       </div>
       <br />
-      <h3 id="front-end"><span class="material-symbols-outlined">psychiatry</span>Frond-end<br /> Proficiencies</h3>
+      <h3 id="front-end"><span className="material-symbols-outlined">psychiatry</span>Frond-end<br /> Proficiencies</h3>
       <div className='wrap'>
         <ul className='skills'>
           <li>HTML</li>
@@ -24,7 +24,7 @@ export default function Resume() {
         </ul>
       </div>
       <br />
-      <h3 id="back-end"><span class="material-symbols-outlined">psychiatry</span>Back-end<br /> Proficiencies</h3>
+      <h3 id="back-end"><span className="material-symbols-outlined">psychiatry</span>Back-end<br /> Proficiencies</h3>
       <div className='wrap'>
         <ul className='skills'>
           <li>Third-Party APIs / RESTful API</li>

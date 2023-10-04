@@ -5,7 +5,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     <div>
       <div id="wholeNav">
 
-      <svg className="waves" xmlns="http://www.w3.org/2000/svg" xlinkHref="http://www.w3.org/1999/xlink" viewBox="0 25 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <svg className="waves" xmlns="http://www.w3.org/2000/svg" xlinkHref="http://www.w3.org/1999/xlink" viewBox="0 25 150 28" preserveAspectRatio="none" shapeRendering="auto">
         <defs>
           <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
         </defs>
@@ -32,8 +32,8 @@ function NavTabs({ currentPage, handlePageChange }) {
               <svg width="277" height="50" viewBox="10 0 200 50">
                 <defs>
                   <linearGradient id="grad1">
-                    <stop offset="0%" stop-color="#FF8282" />
-                    <stop offset="100%" stop-color="#E178ED" />
+                    <stop offset="0%" stopColor="#FF8282" />
+                    <stop offset="100%" stopColor="#E178ED" />
                   </linearGradient>
                 </defs>
                 <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="200" height="35"></rect>
@@ -50,8 +50,8 @@ function NavTabs({ currentPage, handlePageChange }) {
               <svg width="277" height="50" viewBox="10 0 200 50">
                 <defs>
                   <linearGradient id="grad1">
-                    <stop offset="0%" stop-color="#FF8282" />
-                    <stop offset="100%" stop-color="#E178ED" />
+                    <stop offset="0%" stopColor="#FF8282" />
+                    <stop offset="100%" stopColor="#E178ED" />
                   </linearGradient>
                 </defs>
                 <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="200" height="35"></rect>
@@ -68,8 +68,8 @@ function NavTabs({ currentPage, handlePageChange }) {
               <svg width="277" height="50" viewBox="10 0 200 50">
                 <defs>
                   <linearGradient id="grad1">
-                    <stop offset="0%" stop-color="#FF8282" />
-                    <stop offset="100%" stop-color="#E178ED" />
+                    <stop offset="0%" stopColor="#FF8282" />
+                    <stop offset="100%" stopColor="#E178ED" />
                   </linearGradient>
                 </defs>
                 <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="200" height="35"></rect>
@@ -86,8 +86,8 @@ function NavTabs({ currentPage, handlePageChange }) {
               <svg width="277" height="50" viewBox="10 0 200 50">
                 <defs>
                   <linearGradient id="grad1">
-                    <stop offset="0%" stop-color="#FF8282" />
-                    <stop offset="100%" stop-color="#E178ED" />
+                    <stop offset="0%" stopColor="#FF8282" />
+                    <stop offset="100%" stopColor="#E178ED" />
                   </linearGradient>
                 </defs>
                 <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="200" height="35"></rect>
